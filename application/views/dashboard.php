@@ -143,63 +143,62 @@ if( $user_role === 'ADMIN'){
         <div class="status-widgets">
             <div class="row-fluid">
                 <div class="span4">
-                    <div class="widget blue clearfix">
+                    <div class="widget clearfix">
                         <div class="options">
                             <ul>
-                                <li><a href=""><i class="icon-refresh"></i></a></li>
+                                <li><a href=""><i class="icon-refresh txtBlue"></i></a></li>
                             </ul>
-                            <i class="icon-puzzle-piece"></i>
+                            <i class="icon-puzzle-piece txtBlue"></i>
                         </div>
                         <div class="details">
-                            <div class="number" id="surveys_count">
+                            <div class="number txtBlue" id="surveys_count">
                                 <?= $products_total; ?>
                             </div>
-                            <div class="description">
+                            <div class="description txtBlue">
                                 Total Products
                             </div>
                         </div>
-                        <a href="<?=base_url("stockists")?>" class="more"><i class="icon-arrow-right"></i></a>
+                        <a href="<?=base_url("stockists")?>" class="more"><i class="icon-arrow-right txtBlue"></i></a>
                     </div>
                 </div>
 
                 <div class="span4">
-                    <div class="widget grey clearfix">
+                    <div class="widget clearfix">
                         <div class="options">
                             <ul>
-                                <li><a href=""><i class="icon-refresh"></i></a></li>
+                                <li><a href="<?=base_url("dashboard")?>"><i class="icon-refresh txtDark_green"></i></a></li>
                             </ul>
-                            <i class="icon-group"></i>
+                            <i class="icon-group txtDark_green"></i>
                         </div>
                         <div class="details">
-                            <div class="number" id="active_survey">
+                            <div class="number txtDark_green" id="active_survey">
                                 <?= $groups_total; ?>
                             </div>
-                            <div class="description">
+                            <div class="description txtDark_green">
                                 Total Groups
                             </div>
                         </div>
-                        <a href="<?=base_url("distributors")?>" class="more"><i class="icon-arrow-right"></i></a>
+                        <a href="<?=base_url("distributors")?>" class="more"><i class="icon-arrow-right txtDark_green"></i></a>
                     </div>
                 </div>
 
                 <div class="span4">
-                    <div class="widget red clearfix">
+                    <div class="widget clearfix">
                         <div class="options">
                             <ul>
-                                <li><a href="#"><i class="icon-cog"></i></a></li>
-                                <li><a href="#"><i class="icon-refresh"></i></a></li>
+                                <li><a href="#"><i class="icon-refresh txtOrange"></i></a></li>
                             </ul>
-                            <i class="icon-list-alt"></i>
+                            <i class="icon-list-alt txtOrange"></i>
                         </div>
                         <div class="details">
-                            <div class="number" id="category_count">
+                            <div class="number txtOrange" id="category_count">
                                 <?= $blacklist_total; ?>
                             </div>
-                            <div class="description">
+                            <div class="description txtOrange">
                                 Total Blacklisted
                             </div>
                         </div>
-                        <a href="" class="more"><i class="icon-arrow-right"></i></a>
+                        <a href="<?=base_url("blacklist")?>" class="more"><i class="icon-arrow-right txtOrange"></i></a>
                     </div>
                 </div>
             </div>

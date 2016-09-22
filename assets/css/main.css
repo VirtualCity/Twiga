@@ -303,7 +303,11 @@ a.txt_dark_green{
     src: url("../fonts/futured.eot");
 }
 */
+.report-widgets .widget, .status-widgets .widget{
+    border:1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.45);
 
+}
 .logo_image .applogo{
     font-family: myLogoFont, Verdana, Arial, sans-serif;
     color: #D2ECFF;
@@ -315,6 +319,15 @@ a.txt_dark_green{
     font-size: small;
     font-weight: bold;
     color: #FFA459;
+}
+.txtBlue{
+    color:#337ab7!important;
+}
+.txtDark_green {
+    color: #82ba00!important;
+}
+.txtOrange {
+    color: #DF691A!important;
 }
 
 

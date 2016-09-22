@@ -1593,7 +1593,7 @@ ul.e-tabs li a i {
 }
 
 .widget.blue {
-  background: #0072c6;
+  background: #337ab7;
 }
 
 .widget.light_blue {
@@ -1601,7 +1601,7 @@ ul.e-tabs li a i {
 }
 
 .widget.grey {
-  background: #585858;
+  background: #4E5D6C;
 }
 
 .widget.pink {
@@ -1609,15 +1609,15 @@ ul.e-tabs li a i {
 }
 
 .widget.red {
-  background: #ac193d;
+  background: #D9534F;
 }
 
 .widget.orange {
-  background: #d24726;
+  background: #DF691A;
 }
 
 .widget.yellow {
-  background: #ff8f32;
+  background: #F0AD4E;
 }
 
 .widget.dark_green {
