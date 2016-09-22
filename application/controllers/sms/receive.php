@@ -226,9 +226,9 @@ class Receive extends CI_Controller{
                                                             }
                                                         }
                                                         if($all_products_saved){
-                                                            $responseMsg = 'Your purchase report has being received successfully. Thank you';
+                                                            $responseMsg = 'Your purchase report has been received successfully. Thank you';
                                                         }else{
-                                                            $responseMsg = 'Your report has being received. Thank you';
+                                                            $responseMsg = 'Your report has been received. Thank you';
                                                         }
 
                                                     }else{
@@ -276,7 +276,7 @@ class Receive extends CI_Controller{
                                     log_message("info", $responseMsg);
                                 }
                             } else{
-                                $saved = $this->sms_model->save_received_sms($customer->id,$msisdn,$customer->business_name, $customer->name,$customer->customer_type, $message, "GROUP",$customer_type, "PENDING");
+                                $saved = $this->sms_model->save_received_sms($customer->id,$msisdn,$customer->business_name, $customer->name,$customer->customer_type, $message, "GROUP",ucfirst(strtolower($customer_type)), "PENDING");
                                 if ($saved) {
                                     log_message("info", 'Group Message: "' . $content . '" From: "' . $msisdn . '"., Stockist');
                                     $responseMsg = "Your message has been received. Kindly wait for a reply. Thank you";
