@@ -329,6 +329,8 @@ a.txt_dark_green{
 .txtOrange {
     color: #DF691A!important;
 }
-
+.widget.totals{
+    background:#f1f1f1;
+}
 
 

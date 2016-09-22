@@ -143,7 +143,7 @@ if( $user_role === 'ADMIN'){
         <div class="status-widgets">
             <div class="row-fluid">
                 <div class="span4">
-                    <div class="widget clearfix">
+                    <div class="widget totals clearfix">
                         <div class="options">
                             <ul>
                                 <li><a href=""><i class="icon-refresh txtBlue"></i></a></li>
@@ -158,12 +158,12 @@ if( $user_role === 'ADMIN'){
                                 Total Products
                             </div>
                         </div>
-                        <a href="<?=base_url("stockists")?>" class="more"><i class="icon-arrow-right txtBlue"></i></a>
+
                     </div>
                 </div>
 
                 <div class="span4">
-                    <div class="widget clearfix">
+                    <div class="widget totals clearfix">
                         <div class="options">
                             <ul>
                                 <li><a href="<?=base_url("dashboard")?>"><i class="icon-refresh txtDark_green"></i></a></li>
@@ -178,12 +178,12 @@ if( $user_role === 'ADMIN'){
                                 Total Groups
                             </div>
                         </div>
-                        <a href="<?=base_url("distributors")?>" class="more"><i class="icon-arrow-right txtDark_green"></i></a>
+
                     </div>
                 </div>
 
                 <div class="span4">
-                    <div class="widget clearfix">
+                    <div class="widget totals clearfix">
                         <div class="options">
                             <ul>
                                 <li><a href="#"><i class="icon-refresh txtOrange"></i></a></li>
@@ -198,7 +198,7 @@ if( $user_role === 'ADMIN'){
                                 Total Blacklisted
                             </div>
                         </div>
-                        <a href="<?=base_url("blacklist")?>" class="more"><i class="icon-arrow-right txtOrange"></i></a>
+
                     </div>
                 </div>
             </div>
