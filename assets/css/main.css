@@ -332,5 +332,12 @@ a.txt_dark_green{
 .widget.totals{
     background:#f1f1f1;
 }
-
+.widget.totals .details,
+.widget.totals .number,
+.widget.totals .options > i{
+    text-shadow: none!important;
+}
+.widget.totals .options .i-totals{
+    font-size:40px!important;
+}
 

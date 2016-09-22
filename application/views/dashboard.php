@@ -117,7 +117,7 @@ if( $user_role === 'ADMIN'){
                 </div>
 
                 <div class="span4">
-                    <div class="widget red clearfix">
+                    <div class="widget dark_green clearfix">
                         <div class="options">
                             <ul>
 
@@ -145,10 +145,7 @@ if( $user_role === 'ADMIN'){
                 <div class="span4">
                     <div class="widget totals clearfix">
                         <div class="options">
-                            <ul>
-                                <li><a href=""><i class="icon-refresh txtBlue"></i></a></li>
-                            </ul>
-                            <i class="icon-puzzle-piece txtBlue"></i>
+                            <i class="icon-puzzle-piece txtBlue i-totals"></i>
                         </div>
                         <div class="details">
                             <div class="number txtBlue" id="surveys_count">
@@ -165,10 +162,7 @@ if( $user_role === 'ADMIN'){
                 <div class="span4">
                     <div class="widget totals clearfix">
                         <div class="options">
-                            <ul>
-                                <li><a href="<?=base_url("dashboard")?>"><i class="icon-refresh txtDark_green"></i></a></li>
-                            </ul>
-                            <i class="icon-group txtDark_green"></i>
+                            <i class="icon-group txtDark_green i-totals"></i>
                         </div>
                         <div class="details">
                             <div class="number txtDark_green" id="active_survey">
@@ -185,10 +179,7 @@ if( $user_role === 'ADMIN'){
                 <div class="span4">
                     <div class="widget totals clearfix">
                         <div class="options">
-                            <ul>
-                                <li><a href="#"><i class="icon-refresh txtOrange"></i></a></li>
-                            </ul>
-                            <i class="icon-list-alt txtOrange"></i>
+                            <i class="icon-list-alt txtOrange i-totals"></i>
                         </div>
                         <div class="details">
                             <div class="number txtOrange" id="category_count">

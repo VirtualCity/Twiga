@@ -331,7 +331,7 @@ header a.logo_image {
   font-size: 16px;
   color: #fff;
   font-weight: 300;
-  text-transform: uppercase;
+ /* text-transform: uppercase*/;
   background: url(../img/logo.png) no-repeat left center;
   margin-left: 10px;
 }
